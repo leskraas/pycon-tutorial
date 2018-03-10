@@ -1,0 +1,16 @@
+-----------CI----------
+Starter med å sette opp en konto hos travis-io.org
+For å få travis til vite hva han skal gjøre må man lage en .tracis.yml fil.
+Filen kan for eksempel se slik ut:
+	language: ruby
+	rvm:
+	- 2.2
+	- jruby
+	- rbx-3
+Denne filen sier at det er en Ruby prosjekt som skal bli bygget med Ruby 2.2 og den siste utgaven av JRuby og Rubinius 2.X.
+Når denne filen er addet, commitet og pushet så vil Travis CI builde
+
+
+
+
+./
