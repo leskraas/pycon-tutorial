@@ -2,6 +2,7 @@ language: python
 python:
   - 3.6
   - pypy
-install:
+install: 
+  - pip install -U pytest pytest-cov coverage codecov sphinx -- use-mirrosrs
 script:
-  - python test_wordcount.py
+  - py.test --cov=./
