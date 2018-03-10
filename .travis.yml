@@ -2,6 +2,8 @@ language: python
 python:
   - 3.3
 install: 
+  - pip install codecov
   - pip install -U pytest pytest-cov coverage codecov sphinx
 script:
   - py.test --cov=./
+  - codecov
