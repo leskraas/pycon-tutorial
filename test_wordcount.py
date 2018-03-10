@@ -31,7 +31,7 @@ def test_consume_2():
     testfile = _make_testfile('sometext.txt', 'a\nb\ncc\nddd\ne')
     chars, words, lines = wordcount_lib.consume(testfile)
 
-    assert chars == 10                    # includes whitespace in char count
+    assert chars == 12                    # includes whitespace in char count
     assert words == 5
     assert lines == 5
 
