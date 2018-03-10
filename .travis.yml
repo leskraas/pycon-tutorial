@@ -1,8 +1,7 @@
 language: python
 python:
   - 3.3
-  - pypy
 install: 
-  - pip install -U pytest pytest-cov coverage codecov sphinx --use-mirrors
+  - pip install -U pytest pytest-cov coverage codecov sphinx
 script:
   - py.test --cov=./
